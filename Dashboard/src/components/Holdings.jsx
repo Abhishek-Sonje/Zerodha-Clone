@@ -1,13 +1,39 @@
 import React from "react";
-import {holdings} from "../data/data"
+// import { holdings } from "../data/data"
+import axios from "axios";
+import { useState, useEffect } from "react";
+import { VerticalGraph } from "./VeriticalGraph";
 
 const Holdings = () => {
+  const [holdings, setHoldings] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://localhost:3002/allHoldings").then((res) => {
+      setHoldings(res.data);
+    });
+  }, []);
+
+  const labels = holdings.map((stock) => stock["name"]);
+  const data = {
+    labels,
+    datasets: [
+      {
+        label: "Holdings",
+        data: holdings.map((stock) => stock.price ),
+        backgroundColor: "rgba(255, 99, 132, 0.5)",
+      },
+    ],
+  };
+
+   
+
   return (
     <>
       <h3 className="title">Holdings ({holdings.length})</h3>
 
       <div className="order-table">
         <table>
+          {/* <thead> */}
           <tr>
             <th>Instrument</th>
             <th>Qty.</th>
@@ -18,6 +44,7 @@ const Holdings = () => {
             <th>Net chg.</th>
             <th>Day chg.</th>
           </tr>
+          {/* </thead> */}
           {holdings.map((stock, index) => {
             const curValue = stock.price * stock.qty;
             const isProfit = curValue - stock.avg * stock.qty >= 0.0;
@@ -29,16 +56,15 @@ const Holdings = () => {
                 <td>{stock.name}</td>
                 <td>{stock.qty}.</td>
                 <td>{stock.avg.toFixed(2)}</td>
-                <td>{stock.price.toFixed(2) }</td>
+                <td>{stock.price.toFixed(2)}</td>
                 <td>{curValue.toFixed(2)}</td>
                 <td className={profClass}>
-                  {((curValue)-stock.avg*stock.qty).toFixed(2)}
+                  {(curValue - stock.avg * stock.qty).toFixed(2)}
                 </td>
-                <td className={profClass}>{stock.net }</td>
-                <td className={dayClass}>{ stock.day}</td>
+                <td className={profClass}>{stock.net}</td>
+                <td className={dayClass}>{stock.day}</td>
               </tr>
             );
-
           })}
         </table>
       </div>
@@ -61,6 +87,7 @@ const Holdings = () => {
           <p>P&L</p>
         </div>
       </div>
+      <VerticalGraph data={data} />
     </>
   );
 };

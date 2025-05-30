@@ -1,0 +1,80 @@
+.nithin{
+    padding-top: 5rem;
+    
+}
+.nithin-title h1{
+   
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 3rem;
+        color: rgb(66, 66, 66);
+        margin: 0;
+        padding: 0;
+}
+.nithin-row{
+    display:flex;
+    justify-content:space-between;
+    padding: 40px 0px 100px 0px;
+}
+
+.nithin-container{
+    width: 900px;
+    /* padding: 0; */
+}
+
+.nithin-info p{
+    
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        color: rgb(66, 66, 66);
+}
+/* .nithin-info{
+    padding:10px 0px 0px 0px;
+} */
+
+.nithin-img img{
+    width: 295px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.nithin-img{
+    margin: 0;
+    padding: 0;
+
+}
+ 
+.nithin-title h1{
+    margin-bottom: 20px;
+}
+
+.nithin-info p{
+    margin: 16px 0px 16px 0px;
+
+}
+
+.nithin-name h5{
+ 
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.125rem;
+    color: rgb(66, 66, 66);
+    margin: 0;
+    padding: 0;
+
+}
+
+.nithin-name p{
+ 
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+        color: rgb(102, 102, 102);
+        margin:14.4px 0 15px 0;
+        padding: 0;
+}
+
+.nithin-name{
+    padding-right: 4rem;
+}

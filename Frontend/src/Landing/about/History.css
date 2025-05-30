@@ -1,0 +1,24 @@
+.history-para p{
+    margin-top:1rem;
+    margin-bottom:1rem;
+ 
+        font-size:1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        color: rgb(66, 66, 66);
+}
+
+.history{
+    padding: 80px 0px 0px 0px;
+}
+
+
+
+.history-para{
+    width: 28rem;
+}
+
+.history-row{
+    display: flex;
+    justify-content: center;;
+}

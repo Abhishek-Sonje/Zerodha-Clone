@@ -1,0 +1,39 @@
+.hero-container {
+    text-align: center;
+    padding: 0 1.25rem 7.5rem 1.25rem;
+    margin-top: 4rem;
+}
+
+.hero-image {
+    width: 52rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.home-hero-title {
+    margin-top: 2rem;
+    font-size: 2.75rem;
+    font-weight: 500;
+    line-height: 3.45rem;
+    color: rgb(66, 66, 66);
+}
+
+.hero-description {
+    margin-bottom: 2rem;
+    color: rgb(66, 66, 66);
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    font-weight: 400;
+}
+
+.hero-button {
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 0.2rem;
+    background-color: rgb(56, 125, 209);
+    color: white;
+    border: none;
+}
+

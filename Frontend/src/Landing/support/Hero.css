@@ -1,0 +1,118 @@
+.support-head-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.support-hero {
+
+    background: #387ed1;
+    color: #fff;
+    padding: 3.125rem 0 5.3125rem 0;
+
+}
+
+.supportPortal {
+
+    font-size: 1.275rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.search-input-grp {
+    height: 38px px;
+    text-align: left !important;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+    padding-left: 0;
+    background: #fff;
+    border-radius: 2px;
+}
+.support-subheading {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+#search-text {
+    display: inline;
+    max-width: 100%;
+    height: 38px;
+    width: 89%;
+    color: #222;
+    padding: 0;
+    padding-left: 20px;
+    margin: 0;
+    border: none;
+    vertical-align: bottom;
+    line-height: 2.3;
+}
+
+.trackTicket {
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+
+}
+.super-links .quick-links {
+    display: inline-block;
+    margin: 0;
+}
+.super-links a {
+    color: #fff;
+    border-bottom: 0.0625rem solid #fff;
+    padding-bottom: 0.25rem;
+    display: inline-block;
+    margin-right: 1.25rem;
+    margin-bottom: 0.9375rem;
+
+    
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5rem;
+         
+}
+.support-container {
+
+    position: relative;
+    width: 68.75rem;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.support-mid-col{
+    /* margin-top: 40px; */
+    margin-bottom: 60px;
+}
+
+.support-subheading {
+
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 2.0625rem;
+    color: rgb(255, 255, 255);
+}
+.support-featured-header {
+    margin-bottom: 15px;
+    font-size: 1.275rem;
+    font-weight: 500;
+}
+
+.banner-content ol li a{
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+/* 
+ 
+
+ 

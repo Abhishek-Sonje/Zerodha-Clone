@@ -1,0 +1,53 @@
+.leftSection{
+    padding-top: 5rem;
+}
+.LeftSectionContainer {
+    position: relative;
+    width: 68.75rem;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.leftSectionText{
+     display: flex;
+        flex-direction: column;
+        justify-content: center;
+     
+}
+
+.leftSectionText h1{
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 3rem;
+        color: rgb(66, 66, 66);
+        margin:0 0 20px 0;
+}
+
+.storeBadges a{
+    margin: 0 0.625rem 0 0 ;
+}
+.storeBadges a img{
+    width: 9.0625rem;
+    height: 3.125rem;
+    object-fit: contain;
+}
+
+.leftSectionButtons{
+     padding:0;
+        margin: 0;
+}   
+
+.leftSectionButtons a{
+     padding: 0;
+     margin:0;
+}
+
+.leftSectionText p{
+    
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.8rem;
+        margin: 0 0 15px 0;
+        color: rgb(66, 66, 66);
+}

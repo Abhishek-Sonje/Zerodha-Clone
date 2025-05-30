@@ -1,0 +1,30 @@
+.account-charges{
+    padding:80px 0 0 0 ;
+}
+.account-charges-container{
+    
+            position: relative;
+            width: 68.75rem;
+            max-width: 100%;
+            margin: 0 auto;
+            box-sizing: border-box;   
+}
+
+.account-charges-container h2{
+    margin:0 0 1.25rem;
+     
+     
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 2.25rem;
+        color: rgb(66, 66,66);
+}
+ 
+
+.table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: #000;
+    color: #fff; }
